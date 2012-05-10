@@ -5,6 +5,8 @@ Copyright (c) Benoit Caron
 Base in part on works 
 Copyright (c) 2009 Ryan Batesi & Copyright (c) Zach Holman, http://zachholman.com (Rakefile)
 
+Some parts of config files, scripts or other may have license specific to
+these items: applicable license should be visible in these sub-directories/files.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
