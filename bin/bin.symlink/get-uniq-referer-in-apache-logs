@@ -1,0 +1,1 @@
+grep http: access_log | awk '{ print $11}' | sort | uniq | sed "s/\"//g"

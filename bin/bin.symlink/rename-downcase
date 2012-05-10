@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+
+Dir[ARGV.first + '/*'].each {|f| File.rename f, f.downcase}

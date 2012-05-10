@@ -1,0 +1,633 @@
+
+Q: What's the difference between a used car salesman and a computer salesman?
+A: The used car salesman knows when he is lying.
+
+If the automobile had followed the same development cycle as the computer, a Rolls-Royce today would cost $100, get a million miles to the gallon, and explode once every few weeks, killing everyone inside.
+
+Linux: Because rebooting is for adding new hardware.
+
+Adding manpower to a late software project makes it later.
+
+Students nowadays, complaining they only get 5MBs of disk space! In my day we were lucky if we had one file, and that was /dev/null. 
+
+Excuse me for butting in, but I'm interrupt-driven...
+
+Back when I was a boy, we carved our own IC's out of wood.
+
+God is real... unless declared an integer.
+
+C.O.B.O.L - Completely Obsolete Boring Old Language.
+
+Beta testers who lie! Next time on Geraldo!
+
+Sleep: A completely inadequate substitute for caffeine.
+
+Programmers never die: They just GOSUB without RETURN.
+
+C Programmers do it recursively.
+
+Computers make very fast, very accurate mistakes.
+
+A computer lets you make more mistakes faster than any invention in human history, with the possible exceptions of handguns and tequila.
+-- Mitch Ratcliffe, Technology Review, April 1992
+
+Error: Sector not found - search behind couch? (Y/N)
+
+10 Sin 
+20 goto Hell
+
+As a computer, I find your faith in technology amusing.
+
+File not found. Should I fake it? (Y/N)
+
+Three things are certain: Death, taxes, and lost data. Guess which has occurred...
+
+"Historically speaking, the presence of wheels in Unix has never precluded their reinvention."
+-- Larry Wall
+
+Epigram: Ada is the 400-pound gorilla of programming languages.
+
+The programmer's national anthem is 'AAAAAAAARRRRGHHHHH!!'.
+
+I have yet to meet a C compiler that is more friendly and easier to use than eating soup with a knife.
+
+FATAL ERROR! SYSTEM HALTED! - Press any key to do nothing...
+
+Application has reported a 'Not My Fault' in module KRNL.EXE in line 0200:103F
+
+BUFFERS=20 FILES=15 2nd down, 4th quarter, 5 yards to go!
+
+A computer is like an Old Testament god, with a lot of rules and no mercy. 
+-- Joseph Campbell
+
+Hey! It compiles! Ship it!
+
+Real programmers don't document. If it was hard to write, it should be hard to understand.
+
+Whip me. Beat me. Make me maintain AIX.
+
+APATHY ERROR: Don't bother striking any key.
+
+"If the Start Windows Restart when Windows starts check box is checked Windows Restart will start automatically every time Windows is started." 
+-- Actual excerpt from a windows program help file!
+
+All wiyht. Rho sritched mg kegtops awound?
+
+Documentation is like sex: when it is good, it is very, very good; and when it is bad, it is better than nothing. 
+-- Dick Brandon
+
+Bad command or file name. Bad, bad command! Sit! Stay! Staaaay...
+
+Press any key to continue or any other key to quit...
+
+I read the FM, and it didn't work.
+
+PCMCIA - People Can't Memorise Computer Industry Acronyms
+
+Life's unfair - but root password helps!
+
+You've heard about the computer programmer that died while washing his hair in the shower. The instructions said, 'Lather, rinse, repeat.'
+
+C makes it easy to shoot yourself in the foot. C++ makes it harder, but when you do, it blows away your whole leg.
+-- Bjarne 'Stumpy' Stroustrup
+
+Finish the project. We'll buy you a new family.
+
+665.9238429876 - Number of the Pentium Beast
+
+Error: Keyboard not attached. Press F1 to continue.
+
+Linux renders ships, NT is rendering ships useless.
+
+Carpe Aptenodytes! (Seize the Penguins!)
+
+Computer Science: solving today's problems tomorrow.
+
+Programming graphics in X is like finding sqrt(pi) using Roman numerals.
+
+RTFM: No just an acronym, it's the LAW!
+
+Software isn't released, it's allowed to escape.
+
+This message has been brought to you by the language C and the number F.
+
+Fine, fine, everything is fine. But using your GUI's breaking my mind! Change this, don't change that, can't you redesign!!! (to the tune of 'read the signs')
+
+I feel like a genocidal maniac when emacs asks me if I want to kill 10789 characters.
+
+ACK and you shall receive.
+
+The three most dangerous things are a programmer with a soldering iron, a manager who codes, and a user who gets ideas.
+
+Once we've got the bugs ironed out, we'll be running on flat bugs.
+
+Let's face the obvious. Yesterday we were nerds. Today we're the cognitive elite. Let's conquer. 
+-- Chester G. Edwards
+
+'The Geek shall inherit the earth.' - Linus 5:5
+
+To know recursion, you must first know recursion.
+
+I thought I had a back-up, but she refused to type it in again.
+
+Drag me, drop me, treat me like an object!
+
+Behind every good computer is a jumble of wires 'n stuff.
+
+A program is a device used to convert data into error messages.
+
+Standards are industry's way of codifying obsolescence.
+
+cthread. cthread_fork(). Fork, thread, fork!
+
+A bad random number generator: 1, 1, 1, 1, 1, 4.33e+67, 1, 1, 1...
+
+ICMP: The protocol that goes PING!
+
+Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning. 
+-- Rich Cook
+
+Make it idiot proof and someone will make a better idiot. 
+
+Beta. Software undergoes beta testing shortly before it's released. Beta is Latin for 'still doesn't work.'
+
+VI VI VI The editor of the beast.
+
+My software never has bugs. It just develops random features.
+
+A computer scientist is someone who, when told to 'Go to Hell', sees the 'go to', rather than the destination, as harmful.
+
+Enter any 11-digit prime number to continue...
+
+A)bort, R)etry, I)nfluence with large hammer.
+
+There are two ways to write error-free programs. Only the third one works.
+
+Intel: We put the 'um...' in Pentium.
+
+Unix, Perl, C, Python, Java, and PROFANITY spoken here.
+
+A hacker does for love what others would not do for money.
+
+Universe.SYS corrupted. Reboot? [Y/N]
+
+A good programmer is someone who looks both ways before crossing a one-way street. 
+-- Doug Linder
+
+If you declare love, what identifier scope does it have?
+
+Remaining time multiplied by distress is constant.
+
+Mountain Dew and doughnuts... because breakfast is the most important meal of the day.
+
+Marketer to coder: "You start coding. I'll go find out what they want."
+
+'During my service in the United States Congress, I took the initiative in creating the Internet.' 
+-- Al Gore, March 9, 1999: On CNN's Late Edition
+
+My operat~1 system unders~1 long filena~1 , does yours?
+
+Being married to a programmer is like having a cat. You talk to it but you're never really sure if it hears you, much less comprehends what you say.
+
+Real_men_don't_need_spacebars.
+
+Calculating in binary code is as easy as 01,10,11.
+
+You know you're obsessed with computer graphics when you're outside and you look up at the trees and think, "Wow! That's spectacular resolution!"
+ 
+Lotteries are a tax on people that suck at math 
+
+Why do we have to hide from the police, daddy?
+Because we use emacs, son. They use vi.
+
+Emacs is for experts. Pico is for beginners. VI is a disease.
+
+"First they ignore you, then they laugh at you, then they fight you, then you win." 
+-- Gandhi 
+
+There are two ways to write error-free programs.  Only the third one works.
+
+How's my programming? Call 1-800-DEV-NULL
+
+"The number of Unix installations has grown to 10, with more expected." 
+-- The Unix Programmer's Manual, 2nd edition, June '72
+
+Any technology indistinguishable from magic is insufficiently advanced.
+
+- The price of freedom is eternal vigilance. -Thomas Jefferson
+
+If at first you don't succeed, then skydiving is not for you.
+
+"The superior man understands what is right;  the inferior man understands what will sell." 
+-- Confucius
+
+"You want what? You can't have it." 
+-- Tech Support
+
+There are two rules for success in life: \nRule 1:  Don't tell people everything you know.
+
+Recursive: Adj. See Recursive.
+
+Unix IS user friendly. It's just selective about who its friends are.
+
+Bush : a President with the qualifications of a head of lettuce. 
+-- Slashdot.org, 27/11/2000
+
+Aristotle from the Ars Rhetorica on money: Money will not make you wise, but it will bring a wise man to your door.
+
+Good management consists of showing average people how to do the work of superior people. 
+-- John D. Rockefeller
+
+"How should I know if it works? That's what beta testers are for. I only coded it." 
+-- Linus Torvalds 
+
+If PacMan had affected us as kids we'd be running around in dark rooms, munching pills and listening to electronic music.
+
+Where a calculator on the ENIAC is equpped with 18,000 vaccuum tubes and weighs 30 tons, computers in the future may have only 1,000 vaccuum tubes and perhaps weigh 1 1/2 tons. 
+-- unknown, Popular Mechanics, March 1949 
+
+Nothing ages faster than yesterday's vision of the future.
+
+Any sufficiently advanced technology is indistinguishable from a perl script.
+
+Science is like sex: sometimes something useful comes out, but that is not the reason we are doing it. 
+-- Richard Feynman 
+
+The camel has not evolved to smell good. Neither has Perl. 
+-- Larry Wall 
+
+If ease of use is the highest goal, we should all be driving golf carts. 
+-- Larry Wall
+
+If code was hard to write, it should be hard to read
+
+Microsoft: Where do you want to go today?
+Linux: Where do you want to go tomorrow?
+BSD: Are you guys coming, or what?
+
+Do you even know anything about perl? 
+-- AC Replying to Tom Christiansen post.
+
+We'll try to make different mistakes this time. 
+-- Larry Wall, in Apocaplyse 2
+
+"God is dead." -Nietsche
+"Nietsche is dead." -God
+
+Programmers are just machines for turning coffee into code.
+
+If you had a monopoly and made lots of money on support, would you fix your product?
+
+"Outlook not so good."  That magic 8-ball knows everything!  I'll ask about Exchange Server next.
+
+"Intelligence is the ability to avoid doing work, yet getting the work done". 
+--Linus Torvalds
+
+You are only young once, but you can stay immature indefinitely. 
+-- Slasdot, by azephrahel on Monday July 02, @11:27AM EST
+
+If you hold a Unix shell to your ear, do you hear the C ?
+
+It's easy to write songs, you just sit down and write them.  
+-- John Lennon
+
+1) Customers cause problems.
+2) Marketing is trying to create more customers.
+Therefore:
+3) Marketing is evil.  
+-- Grand Edwards in comp.lang.python
+
+There is no reason anyone would want a computer in their home.
+-- Ken Olson, President, Chairman and Founder of Digital Equipment Corp., 1977
+
+Take my advice (after all, I'm not using it)
+
+The whole problem with the world is that fools and fanatics are
+always so certain of themselves, and wiser people so full of doubts.
+-- Bertrand Russell
+
+An eye for an eye leaves the whole world blind. 
+-- Ghandi
+
+Is it one of those urban myths or does IIS really stand for Internet Infection System ?
+
+Computers are useless.  They can only give you answers.  
+--Pablo Picasso
+
+"God, root, what is difference?" 
+-- Pitr, User Friendly
+"God is more forgiving." 
+-- Dave Aronson
+
+"One World, one Web, one Program" - Microsoft promotional ad
+"Ein Volk, ein Reich, ein Fuhrer" - Adolf Hitler 
+
+Never underestimate the power of stupid people in large groups.
+
+I think there is a world market for, maybe, five computers.
+-- IBM Chairman, 1943
+
+Hofstadter's Law:  It always takes longer than you expect, even when you take into account Hofstadter's Law.
+
+Live fast, die old, and make very sure everyone knows you were there.
+-- Alan Cox, http://kerneltrap.com/article.php?sid=490
+
+Trains stop at a train station. Buses stop at a bus station.
+On my desk there's a workstation...
+
+A computer without COBOL and Fortran is like a piece of chocolate cake without ketchup and mustard
+
+
+"Nobody will ever need more than 640K RAM!" 
+-- Bill Gates, 1981
+"Windows 95 needs at least 8 MB RAM." 
+-- Bill Gates, 1996
+"Nobody will ever need Windows 95. 
+-- logical conclusion
+
+-"640 K ought be enough"
+Bill G. , 1984
+-"The Internet is not a primary goal for PC usage"
+Bill G. , 1995
+-"Linux has no impact on Microsoft's strategy"
+Bill G. , 1999
+
+Last week, I left my 2 Windows XP CDs on my dashboard in plain view.  Someone broke into my car and left 2 more.
+
+Education is what remains after one has forgotten everything he learned in school. -Albert Einstein
+
+"I don't think it's selfish, to eat defenseless shellfish." -NOFX
+
+The world is run by idiots because they're more efficient than hamsters.
+
+Those who ignore history are doomed to repeat it.
+Those who study history are doomed to know it's repeating.
+
+If you can ever get away with beating an idiot with a newspaper, do it; otherwise, you may regret it for the rest of your life. 
+http://slashdot.org/comments.pl?sid=32447&cid=3502268
+
+On the Internet, there is no 'they'. There's only a very, very large 'us'. 
+-- Douglas Adams.
+
+USER ERROR: replace user and press any key to continue.
+
+I have good knowledge of UNIX and a girlfriend. Not many people can say that.
+
+This signature was typed slowly for those who cannot read fast.
+
+Windows (win-doe's) n. : a 32 bit GUI shell written on top of a 16 bit operating system that was originally developed for an 8 bit personal computer with a 4 bit interrupt bus by a two bit company that can't stand one bit of competition.
+
+This is that sig that you think you have read somewhere before
+
+!try; do();
+
+A thorough software professional is one who when his wife yells at him "goto hell", worries more about the goto.
+
+CONSULTANTS: If you're not a part of the solution, there's good money to be made in prolonging the problem.
+
+A word can paint a thousand pictures
+
+A man alone in the forest talking to himself and no women around to hear him. Is he still wrong?
+
+Anybody who doesn't cut his speed at the sight of a police car is
+probably parked.
+
+Under capitalism man exploits man. Under communism it's the other way around.
+
+Quand le dernier arbre sera abattu, la dernière rivière empoisonnée, le
+ dernier poisson capturé, alors seulement vous vous apercevrez que l'argent ne se mange pas. 
+-- Prophétie d'un indien Cris
+
+ Whenever there is a conflict between human rights and property rights, human 
+rights must prevail. 
+-- Abraham Lincoln
+
+Implementations should follow a general principle of robustness: be
+conservative in what you do, be liberal in what you accept from others.
+            --Jon Postel, RFC 761
+
+Think nothing is impossible? Try slamming a revolving door!
+
+Everything takes longer than you expect, even when you fake it. - Not Hofstadter's Law
+
+Enjoy your job, make lots of money, work within the law. Choose any two.
+
+Fast, good, cheap. Pick any two.
+
+If you like Microsoft Products, You have not read the EULA.
+
+Abstaction : because the first step to solving any problem is always to create more problems.
+-- ewithrow sur /. #4668348 le 14-11-2002
+
+It only takes 20 years for a liberal to become a conservative without changing a single idea.
+-- Robert Anton Wilson
+
+In theory, there is no difference between theory and practice. In practice, there is.
+
+Computer system is not a shining city on a hill - perfect and ever new - but something more akin to an old farmhouse built bit by bit over decades by nonunion carpenters.
+http://www.wired.com/wired/archive/7.04/y2k.html
+
+Remember, the plane you're flying was made by the lowest bidder.
+- A famous adage used in the military. 
+
+A door is what a dog is perpetually on the wrong side of.
+- Ogden Nash 
+
+Sleep is no substitute for caffeine.
+
+Bill Joy, à propos du "bloat" d'Internet:
+[The Net] used to be perfectly usable at 1200 baud. But these days you can't use the Web at 2400 baud because the ads are 24KB.
+http://theregister.co.uk/content/4/32780.html
+
+Codito, Ergo Sum
+Je code donc je suis.
+
+Printer's ink has been running a race against gunpowder these many, many years.
+Ink is handicapped, in a way, because you can blow up a man with gunpowder in 
+half a second, while it may take twenty years to blow him up with a book. 
+But the gunpowder destroys itself along with its victim, while a book can keep
+on exploding for centuries." 
+--Chistopher Morley, "The Haunted Bookshop" 
+
+[A] high IQ is like a Jeep; you will still get stuck, just farther from help! 
+
+If computers get too powerful, we can organize them into a committee -- that will do them in.
+http://science.slashdot.org/comments.pl?sid=79483&cid=7024341
+
+About Murphy's Law
+"There's no situation so bad that it can't get worse. So be glad that it isn't. At least, not yet."
+http://science.slashdot.org/comments.pl?sid=79483&cid=7024946
+
+Hanlon's Razor
+A corollary of Finagle's Law, similar to Occam's Razor, that reads 
+"Never attribute to malice that which can be adequately explained by stupidity.
+http://www.jargon.net/jargonfile/h/HanlonsRazor.html
+
+Really, I'm not out to destroy Microsoft. That will just be a completely unintentional side effect.
+-- Linus Torvalds
+http://www.nytimes.com/2003/09/28/magazine/WLN104109.html
+
+To mess up a Linux box, you need to work at it; to mess up your Windows box, you just need to work on it.
+http://www.theregister.co.uk/content/56/33226.html
+
+Perl is like Sex...
+- It's easy enough to get started, but takes years to get really good
+- Doing it fast doesn't mean doing it well
+    However, sometimes a quicky is all you need.
+- It's the little details that continue to amaze you
+- You don't learn it from a book 
+
+Shaw's Principle: Build a system that even a fool can use, and only a fool will want to use it.
+
+Seven Deadly Sins? I thought it was a to-do list!
+
+Democracy is the recurrent suspicion that more than half of the people are right more than half of the time.
+-- E. B. White
+
+Errare humanum est, persevare diabolicum
+
+stage of the progression of competency:
+  unconscious incompetence
+  conscious incompetence
+  conscious competence
+  unconscious competence
+  http://slashdot.org/comments.pl?sid=95653&cid=8191624
+
+I don't find that being really up on all the latest technology ever does me any good.
+-- William Gibson 
+
+Since My Divorce..My Palm is my Best Friend... Palm Pilot That Is.
+http://discussion.brighthand.com/palmhandhelds/showthread.php?s=1502517c6f2664bff2f5882d7af8e7c7&threadid=56542
+
+Linux is like living in a teepee. No Windows, no Gates and an Apache in house. 
+
+There are four boxes to be used in defense of liberty:
+soap, ballot, jury, and ammo. Please use in that order.
+-- Ed Howdershelt
+
+"Cogito cogito ergo cogito sum (I think that I think, therefore I think that I am.)"
+- Ambrose Bierce
+
+Studies have shown that people who eat peanuts live longer than those who do not eat.
+
+What if you were an idiot? And what if you were a member of congress? But I repeat myself.
+--Mark Twain
+
+Sex is like air. It's only a big deal if you can't get any.
+
+Don't anthropomorphize computers.
+They hate it when you do that.
+
+Things should be made as simple as possible, but not any simpler. 
+-- Albert Einstein
+
+Give a man a fish, and he eats for a day. 
+ Teach a man to fish, and he eats for a lifetime.
+Make a man a fire, and he'll be warm for a night. 
+ Set him alight, and he'll be warm for the rest of his life! 
+
+If it works, tear it apart and find out why!
+
+Debugging is twice as hard as writing the code in the first place.
+Therefore, if you write the code as cleverly as possible, you are,
+by definition, not smart enough to debug it.
+- Brian W. Kernighan
+
+If it weren't for the last minute a lot of things wouldn't get done!
+
+Well, let's start an Anarchy club. We can elect and appoint leaders, and make rules!
+
+Those who do not understand Unix are condemned to reinvent it, poorly.
+-- Henry Spencer
+
+I have always wished that my computer would be as easy to use as my telephone.  My wish has come true.  I no longer know how to use my telephone.
+-- Bjarne Stroustrup
+
+Consulting: the art of calling someone a "fucking idiot" without using the word "fucking" or the word "idiot."
+-- Donald B. Marti Jr.
+
+Subject: SETI@home
+Or perhaps a better subject title would be, "Watching paint dry, but geekier."
+-- Brian Menyuk
+
+Some people, when confronted with a problem, think 'I know, I'll use regular expressions.'  Now they have two problems.
+-- Jamie Zawinski, on comp.lang.emacs
+
+Windows 98: n.
+    useless extension to a minor patch release for 32-bit extensions and
+    a graphical shell for a 16-bit patch to an 8-bit operating system
+    originally coded for a 4-bit microprocessor, written by a 2-bit
+    company that can't stand for 1 bit of competition. 
+
+The world needs more people like us and fewer like them.
+
+What we need is either less corruption, or more chance to participate in it.
+
+C combines the power of assembler language with the convenience of assembler
+language.
+
+When your hammer is C++ everything starts to look like a thumb.
+
+Software is like sex - the best is for free.
+-- Linus Torvalds
+
+Q: how does a unix guru have sex?
+A: unzip;strip;touch;finger;mount;fsck;more;yes;fsck;fsck;fsck;umount;sleep
+
+Those who do not understand unix are condemned to reinvent it, poorly.
+-- Harry Spencer
+
+It is not enough to succeed, others must fail.
+--Gore Vidal
+
+all customers out of a mire of technological chaos neatly ignores the fact that it was he who, by peddling second-rate technology, led them into it in the first place.
+-- Douglas Adams, on Windows 95
+
+I feel sorry for people who don't drink. When they wake up in the morning, that's as good as they're going to feel all day.
+-- Frank Sinatra
+
+Anyone who can't laugh at himself is not taking life seriously enough.
+--Larry Wall
+
+I've had a perfectly wonderful evening. But this wasn't it.
+--Groucho Marx
+
+Monday is an awful way to spend one seventh of your life.
+
+UNIX was not designed to stop you from doing stupid things, because that would also stop you from doing clever things.
+-- Doug Gwyn
+
+Committee: a group of the unfit appointed by the unwilling to do the unnecessary. 
+--Stewart Harrol
+
+The trouble with doing something right the first time is that nobody appreciates how difficult it was.
+
+f u cn rd ths, u cn gt a gd jb n cmptr prgrmmng.
+
+Memory is like an orgasm.  It's a lot better if you don't have to fake it.
+-- Seymour Cray, commenting on virtual memory.
+
+For every complex problem, there is a solution that is simple, neat, and wrong.
+-- H. L. Mencken
+
+Underneath every Cynic is a disappointed Idealist.
+-- George Carlin
+
+No trees were killed in sending this message.  However, a large number of electrons were seriously inconvenienced.
+
+Every non-insignificant program can be shortened by at least one instruction, and has at least one bug.  From this, it can be inferred that such programs can be reduced to one instruction, which is the bug.
+
+If you think C++ is not overly complicated, just what is a protected abstract virtual base pure virtual private destructor, and when was the last time you needed one?
+--Tom Cargill
+
+If you have any trouble sounding condescending, find a Unix user to show you how it's done. 
+--Scott Adams, Dilbert newsletter 3.0, 1994
+
+Compromise [n.] -- A state of affairs where all parties in a negotiation are unsatisfied, but with the consolation that at least they screwed the other guy, too.
+
+Who the fuck cares which one is faster?  Evidently it's important to you to get the wrong answer as quickly as possible.
+--Mark Jason Dominus
+
+Computers are like air conditioners - They stop working properly when you open Windows
+
+

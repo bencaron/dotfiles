@@ -1,0 +1,13 @@
+# knife shortcuts
+function knife-dbagversions(){
+    knife data bag from file cakemail-versions $HOME/src/cakemail/chef/data_bags/cakemail-versions/$1 ;
+}
+
+alias digs='dig +short '
+alias sshhop='ssh -A -t gw1 ssh -A -t'
+
+alias ge='geeqie'
+
+alias tmuxlogininterfaces='tmuxlogin bcaron@10.130.1.210 bcaron@10.130.1.220 bcaron@10.130.1.230'
+
+alias ethereal-switch-buster='sudo ethereal -i eth0 -V -f "ether host 01000ccccccc" -c 2'

@@ -1,0 +1,11 @@
+data/.hgtags.i
+data/doc/vimpress.txt.i
+data/markdown_posts_upgrade.py.i
+data/plugin/blog-dev.vim.i
+data/plugin/blog.new.vim.i
+data/plugin/blog.py.i
+data/plugin/blog.vim.i
+data/plugin/old_blog.py.i
+data/plugin/release_vimpress.sh.i
+data/release_vimpress.sh.i
+data/syntax/blogsyntax.vim.i

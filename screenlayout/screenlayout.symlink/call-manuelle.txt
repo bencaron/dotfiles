@@ -1,0 +1,15 @@
+ 1699  xrandr --output LVDS1 --auto --output VGA1 --auto --left-of LVDS1
+ 1700  xrandr --output LVDS1 --auto --output VGA1 --auto --right-of LVDS1
+ 1701  #xrandr --output LVDS1 --auto --primary  --output VGA1 --auto --left-of LVDS1
+ 1702  xrandr --output LVDS1 --auto --primary  --output VGA1 --auto --left-of LVDS1
+ 1703  xrandr --output LVDS1 --auto --output VGA1 --auto --left-of LVDS1
+ 1704  xrandr --output LVDS1 --auto --primary --pos 1280x0 --output VGA1 --auto --left-of LVDS1 --pos 0x0
+ 1705  xrandr --output LVDS1 --auto --output VGA1 --auto --right-of LVDS1
+ 1706  xrandr --output LVDS1 --auto --primary
+ 1777  histogrep rand
+ 1778  xrandr 
+ 1779  histogrep rand
+ 1780  xrandr --output LVDS1 --primary --auto --output VGA1 --auto --left-of LVDS1
+ 1781  xrandr --output LVDS1 --auto --primary
+ 1782  xrandr --output LVDS1 --auto --output VGA1 --auto --right-of LVDS1
+

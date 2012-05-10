@@ -1,0 +1,174 @@
+;; This is the Aquamacs Preferences file.
+;; Add Emacs-Lisp code here that should be executed whenever
+;; you start Aquamacs Emacs. If errors occur, Aquamacs will stop
+;; evaluating this file and print errors in the *Messags* buffer.
+;; use this file in place of ~/.emacs (which is loaded as well.)
+
+
+;;http://www.emacswiki.org/emacs/DotEmacsModular
+(load-file "~/.emacs.d/my-site-start.el")
+(autoload 'my-site-start "my-site-start/my-site-start" nil t)
+(my-site-start "~/.emacs.d/site-start.d/")
+(load-library "swapwindows")
+(load-library "renamefileandbuffer")
+(load-library "toggle-night-color-theme")
+;(load-library "nxhtml")
+(load "~/.emacs.d/site-start.d/nxhtml/autostart.el")
+
+; A voir aussi pour organisation :
+; http://steve.yegge.googlepages.com/my-dot-emacs-file
+; surtout pour load-de librairies
+
+;; Force de la couleur
+(require 'color-theme)
+(eval-after-load "color-theme"
+  '(progn
+     (color-theme-initialize)
+     (color-theme-calm-forest)))
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; 
+;; Mon .emacs
+;;
+;;;;;;;;;;;;;;;;;;;;
+;; En haut, definition
+;; Keybinding: en bas, au cas ou on doit preparer le terrain
+;;
+
+;(cua-mode 0)
+;(transient-mark-mode 1)
+
+;(setq c-mode-hook
+ ;   (function (lambda ()
+  ;(setq indent-tabs-mode nil)
+   ;             (setq c-indent-level 4))))
+
+(setq default-tab-width 2)
+(setq tab-width 2)
+(setq c-basic-offset 2)
+(setq indent-tabs-mode nil)
+
+
+
+;; j'hai ca le wordwrap!
+(set-default 'truncate-lines t)
+
+;; pas de toolbar, on a pas besoin de ca...
+(tool-bar-mode -1)
+
+;; buffer switching plus le fun 
+(iswitchb-mode 1)
+(iswitchb-default-keybindings)
+
+;Preventing Switching To Another Frame
+(setq iswitchb-default-method 'samewindow)
+
+
+;;
+; Merci Twitter
+(mouse-avoidance-mode 'cat-and-mouse)
+
+;; 
+
+;;;;;;;;;;;;;;
+;
+; Set the browser
+
+; FIXME: gerer Mac/Linux
+; Sous Mac, on fait open et le http:// fait en sorte qu'on lance le browser par defaut
+;(setq browse-url-browser-function 'browse-url-generic
+;     browse-url-generic-program "/usr/bin/firefox")
+(setq browse-url-browser-function 'browse-url-generic
+      browse-url-generic-program "/usr/bin/open")
+
+(defun google-region (beg end)
+  "Google the selected region."
+  (interactive "r")
+  (browse-url (concat "http://www.google.com/search?ie=utf-8&oe=utf-8&q=" (buffer-substring beg end))))
+
+; http://xahlee.org/emacs/elisp_idioms.html
+(defun php-lookup ()
+  "Look up current word in PHP ref site in a browser.\n
+  If a region is active (a phrase), lookup that phrase."
+  (interactive)
+  (let (myword myurl)
+    (setq myword
+          (if (and transient-mark-mode mark-active)
+              (buffer-substring-no-properties (region-beginning) (region-end))
+            (thing-at-point 'symbol)))
+    (setq myurl
+          (concat "http://ca.php.net/" myword))
+    (browse-url myurl)))
+
+
+
+;; save-macro
+; http://www.emacswiki.org/emacs/KeyboardMacrosTricks
+(defun save-macro (name)                  
+  "save a macro. Take a name as argument
+     and save the last defined macro under 
+     this name at the end of your .emacs"
+  (interactive "SName of the macro :")  ; ask for the name of the macro    
+  (kmacro-name-last-macro name)         ; use this name for the macro    
+										;(find-file "~/.emacs")                ; open the .emacs file 
+  (if (boundp 'aquamacs-version)
+	  (find-file "~/Library/Preferences/Aquamacs Emacs/Preferences.el")  ; open the .Preferences.el file 
+	(find-file "~/.emacs"))                ; open the .emacs file 
+  (goto-char (point-max))               ; go to the end of the .emacs
+  (newline)                             ; insert a newline
+  (insert-kbd-macro name)               ; copy the macro 
+  (newline)                             ; insert a newline
+  (switch-to-buffer nil))               ; return to the initial buffer
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;  Keybindings
+
+;; Generiques
+
+(global-set-key [f5] 'call-last-kbd-macro)
+
+;(global-set-key (kbd "...") 'google-region)
+(global-set-key (kbd "M-w") 'google-region)
+
+; Le necessaire goto-line!
+(global-set-key "\M-g" 'goto-line)
+
+(global-set-key (kbd "C-x m") 'set-mark-command)
+;;
+;; Mode hooks
+
+;; For PHP, bust M-w from google-region to php-lookup
+(add-hook 'php-mode-hook (lambda ()
+			    (local-set-key (kbd "M-w") 'php-lookup)
+))
+
+
+;; Mac OS X specifics
+(when (boundp 'aquamacs-version)
+	; La ligne suivante ne marche pas pcq osx-key-mode-map defini kk touches et on n'a pas le "droit" 
+    ; de redefinir de touche la (en tk, c ce que je comprends d'emacswiki...
+    ;(global-set-key  (kbd "A-x") 'execute-extended-command)
+    ; On peut donc faire comme ca:
+  (define-key osx-key-mode-map (kbd "A-x") 'execute-extended-command)
+  
+; goto-line, version touche commandj-g. A noter qu'on overwrite ce qui est caller par command-g ; je pense que
+; c un "replace-next" ou kk chose du genre que j'utilise pas... bof. ;)
+  (define-key osx-key-mode-map (kbd "A-g") 'goto-line)
+  (define-key osx-key-mode-map (kbd "A-b") 'backward-word)
+  (define-key osx-key-mode-map (kbd "A-f") 'forward-word)
+  (define-key osx-key-mode-map (kbd "A-d") 'kill-word)
+  ; Mark mode ; default keymap f-up by aquamacs?
+  ; tabarnak(global-set-key (kbd "C-SPC") 'set-mark-command)
+   
+  )
+; marche meme pas ca... ?!?
+;(global-set-key "\C-z" 'undo)
+
+
+;;;;
+;; Auto-saved macro
+(fset '\1234
+   (lambda (&optional arg) "Keyboard macro." (interactive "p") (kmacro-exec-ring-item (quote (";1234" 0 "%d")) arg)))
+

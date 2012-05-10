@@ -1,0 +1,181 @@
+"Turn on Pathogen
+call pathogen#runtime_append_all_bundles() 
+
+" Use Vim settings, rather than Vi settings (much better!).
+" This must be first, because it changes other options as a side effect.
+set nocompatible
+
+" Make backspace behave in a sane manner.
+set backspace=indent,eol,start
+
+" Parametres commun dans tous les cas
+set visualbell
+set incsearch
+set hlsearch
+set showmatch
+set nowrap
+set ruler
+
+" needed for LustyExplorer
+set hidden
+
+" Color ON
+syntax enable
+
+"set cindent
+set smartindent
+set autoindent
+filetype indent on
+filetype plugin on
+
+"set digraph
+set background=dark
+
+"http://vim.wikia.com/wiki/Hide_toolbar_or_menus_to_see_more_text
+":set guioptions-=m  "remove menu bar
+":set guioptions-=T  "remove toolbar
+set guioptions-=r  "remove right-hand scroll bar
+set guioptions-=L  "remove Left-hand scroll bar
+
+" surtout pour le python...
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set smarttab
+set expandtab
+
+set pastetoggle=<F2>
+
+
+" Mapping
+""""""""""""""""""""""""""""""""""""""
+"
+
+" First, set , as leader key
+let mapleader = ","
+
+"map <F8> :Tlist<CR>
+map <F8> :TagbarToggle<CR>
+map <F9> :NERDTreeToggle<CR>
+
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+" For Python
+if has("python")
+    python << EOF
+import os
+import sys
+import vim
+for p in sys.path:
+    if os.path.isdir(p):
+        vim.command(r"set path+=%s" % (p.replace(" ", r"\ ")))
+EOF
+
+endif 
+"
+"
+"The following line sets the smartindent mode for *.py files. It means that
+" after typing lines which start with any of the keywords in the list (ie.  def, class, if, etc) the
+" next line will automatically indent itself to the next level of indentation:
+autocmd BufRead *.py set smartindent " cinwords=if,elif,else,for,while,try,except,finally,def,class
+
+"
+" "Many people like to remove any extra whitespace from the ends of lines.
+" Here is one way to do it when saving your file.
+autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
+
+" Automatically reload .vimrc when changing
+autocmd! bufwritepost .vimrc source %
+
+
+" pour etre sur d'avoir de la couleur
+syntax on
+
+
+" Extrait _en entier_! du script cd.vim de vim.sf.net
+" Fait automatiquement un "cd" vers le répertoire du buffer
+" courant
+au   BufEnter *   execute ":lcd " . expand("%:p:h")
+
+" Lorsqu'en début de ligne, les <tab> donneront de vrais tabs. Le reste du
+" temps, on va avoir le comportement "normal", ie indentation.
+" Tips trouvé ici : http://www.vim.org/tips/tip.php?tip_id=102
+function InsertTabWrapper()
+      let col = col('.') - 1
+      if !col || getline('.')[col - 1] !~ '\k'
+          return "\<tab>"
+      else
+          return "\<c-p>"
+      endif
+endfunction
+
+inoremap <tab> <c-r>=InsertTabWrapper()<cr>
+
+" Python mode only, but loaded globally.. FIXME
+"
+autocmd FileType python map  ]#   :call PythonCommentSelection()<CR>
+autocmd FileType python vmap ]#   :call PythonCommentSelection()<CR>
+autocmd FileType python vmap ]u   :call PythonUncommentSelection()<CR>
+autocmd FileType python vmap ]u   :call PythonUncommentSelection()<CR>
+
+" Arduino mode
+au BufNewFile,BufRead *.pde setf arduino
+
+"VagrantFile mode
+au BufNewFile,BufRead Vagrantfile setf ruby
+
+" Pour ajouter et enlever des commentaires. Suppose des commentaires
+" avec des #.. :\ 
+"  Oui, on se repete hein?
+vmap ,ic :s/^/#/g<CR>:let @/ = ""<CR>
+map  ,ic :s/^/#/g<CR>:let @/ = ""<CR>
+vmap ,rc :s/^#//g<CR>:let @/ = ""<CR>
+map  ,rc :s/^#//g<CR>:let @/ = ""<CR>
+
+
+" Showoff 
+map ,sa :!showoff add -t code Check This Code<CR>
+
+
+"" FIXME: temporary, use a better setup!
+ab dlab  [ arrowhead = "none", taillabel="eth1", headlabel="yz" ]
+
+" I said WRITE THAT FILE! ;)
+"http://presentations.codeinthehole.com/confoo2011/
+cmap w!! %!sudo tee > /dev/null %
+
+
+let VIMPRESS = [{'username':'bencaron',
+                \'blog_url':'http://patentemoi.ca/'
+                \}]
+
+
+" bundle/vim-powerline
+let g:Powerline_symbols = 'fancy'
+
+
+
+" Mac only ; see after for Alt-base shortcut
+ map <D-1> :tabn 1<CR>
+ map <D-2> :tabn 2<CR>
+ map <D-3> :tabn 3<CR>
+ map <D-4> :tabn 4<CR>
+ map <D-5> :tabn 5<CR>
+ map <D-6> :tabn 6<CR>
+ map <D-7> :tabn 7<CR>
+ map <D-8> :tabn 8<CR>
+ map <D-9> :tabn 9<CR>
+ map <D-0> :tabnew<CR>
+
+map <A-1> :tabn 1<CR>
+map <A-2> :tabn 2<CR>
+map <A-3> :tabn 3<CR>
+map <A-4> :tabn 4<CR>
+map <A-5> :tabn 5<CR>
+map <A-6> :tabn 6<CR>
+map <A-7> :tabn 7<CR>
+map <A-8> :tabn 8<CR>
+map <A-9> :tabn 9<CR>
+map <A-0> :tabnew<CR>
+

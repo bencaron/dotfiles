@@ -1,0 +1,1 @@
+../bundle/vimrepress/plugin/blog.py

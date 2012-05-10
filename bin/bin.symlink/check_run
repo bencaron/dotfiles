@@ -1,0 +1,27 @@
+#!/bin/bash
+
+function check_run {
+# check if a /var/run/$1.pid run $2 binary
+    PIDFILE=/var/run/$1.pid
+    if [ ! -x $2 ]; then
+        echo Binary $2 do not exist
+        return 0
+    fi
+    if [ ! -r $PIDFILE ]; then
+        echo Missing $PIDFILE
+        return 0
+    fi
+    PID=`cat $PIDFILE`
+    if [ ! -r /proc/$PID/exe ]; then
+        echo Orphan $PIDFILE, removing
+        rm -f $PIDFILE
+        return 0
+    fi
+    if [ ! -z &quot;`readlink /proc/$PID/exe | grep $2`&quot; ]; then
+        return 1
+    fi
+    echo A problem occured
+    return 0
+}
+
+#check_run sshd /usr/sbin/sshd

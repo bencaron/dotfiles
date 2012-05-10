@@ -1,0 +1,26 @@
+"set background=dark
+
+colorscheme murphy
+
+
+"http://vim.wikia.com/wiki/Hide_toolbar_or_menus_to_see_more_text
+set guioptions-=T  "remove toolbar
+
+"http://vim.wikia.com/wiki/Configuring_the_cursor
+" Disable all blinking:
+set guicursor+=a:blinkon0
+" Remove previous setting:
+":set guicursor-=a:blinkon0
+" Restore default setting:
+":set guicursor&
+highlight Cursor guifg=white guibg=red
+"" FIXME: icursor?
+highlight iCursor guifg=white guibg=steelblue
+
+"Préparation de notre menu
+"call CreateMenuPath("~/code/", "Mes fichiers", 0, "bureau")
+
+"let perl_fold=0
+"let perl_fold_blocks = 1
+
+

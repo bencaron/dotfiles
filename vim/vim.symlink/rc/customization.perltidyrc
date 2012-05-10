@@ -1,0 +1,3 @@
+--maximum-line-length=96
+--nospace-for-semicolon
+--indent-columns=2

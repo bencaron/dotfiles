@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ -d $NAUTILUS_SCRIPT_SELECTED_FILE_PATHS ] 
+    then
+    tmp=$NAUTILUS_SCRIPT_SELECTED_FILE_PATHS
+    aimporter=`echo $tmp | sed 's/$/\/\*/g'`
+else
+    #aimporter=$NAUTILUS_SCRIPT_CURRENT_URI
+    aimporter="$NAUTILUS_SCRIPT_SELECTED_FILE_PATHS pouelle"
+fi
+
+if zenity --question --text="Renommer toutes les photos dans ${aimporter} en patterns de date selon EXIF, récursivement??" 
+    then 
+    output=`exiv2 mv -r %Y%m%d_%H%M%S-:basename: $aimporter >&2`
+    #exiv2 mv -r %Y%m%d_%H%M%S-:basename: $aimporter | zenity --text-info
+    if [ "$output" != "" ]
+        then
+        zenity --error --text="Erreur dans l'importation!\n${output}"
+    fi
+fi
+
