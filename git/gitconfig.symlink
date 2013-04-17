@@ -1,6 +1,6 @@
 [user]
 	name = Benoit Caron
-	email = benoit.caron@cakemail.com
+	email = bcaron@lapresse.ca
 [giggle]
 	main-window-maximized = false
 	main-window-geometry = 1105x623+64+72
@@ -9,23 +9,34 @@
 	file-view-vpane-position = 563
 	show-graph = true
 [merge]
-	tool = meld
+#	tool = diffmerge
+	tool = vimdiff
 [core]
-	excludesfile = /home/benoit/.gitignore
+	excludesfile = /Users/bcaron/.gitignore_global
 [alias]
 	st = status
-	ci = commit
-	co = checkout
-    br = branch
-    df = diff
-    dif = diff
-    dc = diff --cached
-    lg = log -p
-    lol = log --graph --decorate --pretty=oneline --abbrev-commit
-    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
-    ls = ls-files
+  ci = commit
+  co = checkout
+  br = branch
+  df = diff
+  dif = diff
+  dc = diff --cached
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  logdel = log --diff-filter=D --summary
+  logdelf = "!git log --diff-filter=D --summary | grep delete"
+  log80 = "!git log --graph --color=always --abbrev-commit --date=relative --pretty=format:'%x00%h%x00%s%x00%cd%x00%an%x00%d' | gawk -F '\\0' '{ printf \"%s\\033[31m%s\\033[0m %-50s \\033[32m%14s\\033[0m \\033[30;1m%s\\033[0m\\033[33m%s\\n\", $1, $2, gensub(/(.{49}).{2,}/, \"\\\\1…\",\"g\",$3), $4, $5, $6 }' | less -R"
+
+  #http://blog.apiaxle.com/post/handy-git-tips-to-stop-you-getting-fired/
+  # a voir  git config --global diff.algorithm patience
+  snapshot = !git stash save "snapshot: $(date)" && git stash apply "stash@{0}"
+  ours   = "!f() { git checkout --ours $@ && git add $@; }; f"
+  theirs = "!f() { git checkout --theirs $@ && git add $@; }; f"
+  
+  ls = ls-files
     # Show files ignored by git:
-    ign = ls-files -o -i --exclude-standard
+  ign = ls-files -o -i --exclude-standard
 
 [color]
 	branch = auto
@@ -33,6 +44,19 @@
 	interactive = auto
 	status = auto
 [diff]
-	tool = meld
+	tool = diffmerge
 [branch]
-	autosetupmerge = true
+    autosetupmerge = true
+
+
+[difftool "diffmerge"]
+	cmd = diffmerge $LOCAL $REMOTE
+[mergetool "diffmerge"]
+	cmd = "diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""
+	trustExitCode = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
